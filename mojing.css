@@ -1,0 +1,44 @@
+*{margin: 0;padding: 0}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #68cdd5;
+    color: white;
+    font-size: 62.5%;
+}
+
+.exit{
+    background-color: #68cdd5;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: #68cdd5;
+    padding: 8em 50%;
+    width: 5%;
+}
+p{font-size: 18px}
+
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: #68cdd5;
+    padding: 1em 5%;
+}
+
+.logo_l{
+    justify-content: center;
+    padding: 1em 25%;
+    background-color: #68cdd5;
+}
+.logo_r{
+
+    justify-content: center;
+    padding: 1em 75%;
+    background-color: #68cdd5;
+}
+
