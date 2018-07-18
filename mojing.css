@@ -4,6 +4,14 @@ html{
     height: 100%;
 }
 
+img{
+    transform: scale(0.5);
+    -ms-transform:scale(0.5);
+    -webkit-transform:scale(0.5);
+    -o-transform:scale(0.5);
+    -moz-transform:scale(0.5);
+}
+
 body{
     background-color: #68cdd5;
     color: white;
@@ -18,27 +26,33 @@ body{
     display: flex;
     justify-content: center;
     background-color: #68cdd5;
-    padding: 8em 50%;
+    padding: 3em 45%;
     width: 5%;
 }
-p{font-size: 18px}
+p{
+    font-size: 12px;
+    line-height:22px;
+}
 
 .main{
     display: flex;
     justify-content: center;
     background-color: #68cdd5;
-    padding: 1em 5%;
+    padding: 1em 15%;
 }
 
-.logo_l{
-    justify-content: center;
-    padding: 1em 25%;
-    background-color: #68cdd5;
-}
-.logo_r{
-
-    justify-content: center;
-    padding: 1em 75%;
+.logo{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 6em 10% 0.01em 10%;
     background-color: #68cdd5;
 }
 
+.letter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.01em 10% 0.01em 10%;
+    background-color: #68cdd5;
+}
