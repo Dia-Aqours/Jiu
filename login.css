@@ -1,0 +1,84 @@
+*{margin: 0;padding: 0}
+
+html{
+    height: 100%;
+}
+
+img{
+    transform: scale(0.5);
+    -ms-transform:scale(0.5);
+    -webkit-transform:scale(0.5);
+    -o-transform:scale(0.5);
+    -moz-transform:scale(0.5);
+}
+
+body{
+
+    color: white;
+    font-size: 62.5%;
+}
+
+.header{
+    font-size: 16px;
+    background-color: #68cdd5;
+    padding: 1em 10% ;
+    text-align:center;
+}
+
+.letter_close{
+    font-size: 16px;
+    position: fixed;
+    text-align: left;
+    left:10px;
+}
+
+.letter_register{
+    font-size: 16px;
+    position: fixed;
+    text-align: right;
+    right: 10px;
+}
+
+.line{
+    color: lightgray;
+    vertical-align:middle;
+}
+.login{
+    background-color: #68cdd5;
+    padding: 1.5em 10% ;
+    text-align:center;
+}
+.login1{
+    border: 0px solid #999;
+    background-color: #68cdd5;
+    font-size: 18px;
+    line-height:22px;
+    color: white;
+}
+.main{
+    background-color: lightgray;
+    padding: 1em 0 ;
+}
+
+.main1{
+    background-color: white;
+    vertical-align:middle;
+}
+
+.logo{
+    padding: 1em ;
+    vertical-align:middle;
+}
+.input{
+    height: 24px;
+    border: 1px solid white;
+    border-radius: 4px;
+    vertical-align:middle;
+}
+
+.pwfg{
+    float: right;
+    color:#68cdd5;
+    font-size: 12px;
+    padding: 1em 1em 0 0;
+}
