@@ -5,6 +5,7 @@ html{
 }
 
 img{
+    display:inline-block;
     transform: scale(0.5);
     -ms-transform:scale(0.5);
     -webkit-transform:scale(0.5);
@@ -40,7 +41,10 @@ body{
 }
 
 .line{
-    color: lightgray;
+    display:inline-block;
+    padding:30px 6px 0px 12px;
+    font-size: 16px;
+    border-left: 1px solid lightgray;
     vertical-align:middle;
 }
 .login{
@@ -62,7 +66,7 @@ body{
 
 .main1{
     background-color: white;
-    vertical-align:middle;
+
 }
 
 .logo{
@@ -82,3 +86,4 @@ body{
     font-size: 12px;
     padding: 1em 1em 0 0;
 }
+
