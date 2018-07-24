@@ -51,6 +51,7 @@ body{
     background-color: #68cdd5;
     padding: 1.5em 10% ;
     text-align:center;
+    outline:none;
 }
 .login1{
     border: 0px solid #999;
@@ -79,6 +80,7 @@ body{
     border-radius: 4px;
     vertical-align:middle;
     font-weight: bold;
+    outline:none;
 }
 
 .pwfg{
