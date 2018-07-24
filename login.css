@@ -79,6 +79,7 @@ body{
     border-radius: 4px;
     vertical-align:middle;
     font-weight: bold;
+    outline:none;
 }
 
 .pwfg{
