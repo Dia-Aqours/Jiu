@@ -55,7 +55,7 @@ body {
     display: flex;
     padding: 5em 1em 2em 0px;
     background-color: #68cdd5;
-    background-image: url("main_header.jpg");
+    background-image: url("main_header1.jpg");
     background-repeat:no-repeat;
     background-size:100% 100%;
     -moz-background-size:100% 100%;
@@ -167,7 +167,7 @@ body {
     justify-content:flex-start;
     align-items:center;
 
-    padding: 1em 0 7px 15px;
+    padding: 1em 0 1em 15px;
     height:inherit;
     font-size: 12px;
 }
