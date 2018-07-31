@@ -18,6 +18,10 @@ body{
     font-size: 62.5%;
 }
 
+p{
+    font-size: 14px;
+    line-height:22px;
+}
 .exit{
     background-color: #68cdd5;
 }
@@ -25,18 +29,16 @@ body{
 .header{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #68cdd5;
     padding: 3em 45%;
     width: 5%;
-}
-p{
-    font-size: 12px;
-    line-height:22px;
 }
 
 .main{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #68cdd5;
     padding: 1em 15%;
 }
