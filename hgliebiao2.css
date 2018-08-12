@@ -26,6 +26,8 @@ body {
 
 @media (max-width:767px){
 
+
+
 .navbar-nav>.open>.dropdown-menu {
     position: absolute !important;
     float: left !important;
@@ -228,7 +230,9 @@ body {
 }
 .main_select3{
     color: gray !important;
-    padding: 3px  !important;
+    background-color:white!important;
+    padding: 3px 0 3px 0  !important;
+    text-align: center !important;
 }
 
 .main_select{
@@ -241,7 +245,7 @@ body {
 
 .main_select2{
     color: gray !important;
-    margin-left: 28px !important;
+    margin-left: 13px !important;
 }
 
 .main_select4{
@@ -353,5 +357,6 @@ body {
 
 .width{
     min-width: 100% !important;
+    text-align: center !important;
 }
 
