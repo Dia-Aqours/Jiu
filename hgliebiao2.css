@@ -41,6 +41,11 @@ body {
 }
 
 @media (max-width:767px) {
+    .dropdown-menu > li > a{
+        padding: 3px 20px !important;
+    }
+}
+@media (max-width:767px) {
     .navbar-nav {
         margin: 0 !important;
     }
@@ -277,7 +282,7 @@ body {
 }
 .line{
     display:inline-block;
-    padding:36px 6px 0px 12px;
+    padding:43px 6px 0px 12px;
     font-size: 16px;
     border-left: 1px solid lightgray;
     vertical-align:middle;
