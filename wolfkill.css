@@ -1,0 +1,193 @@
+*{margin: 0;padding: 0}
+
+html {
+    height: 100%;
+}
+
+img {
+    transform: scale(0.7);
+    -ms-transform:scale(0.7);
+    -webkit-transform:scale(0.7);
+    -o-transform:scale(0.7);
+    -moz-transform:scale(0.7);
+    vertical-align: middle;
+}
+
+body {
+
+    font-size: 62.5%;
+    background-color:#f0f0f0 !important;
+}
+
+.header{
+    display: flex;
+    font-size: 16px;
+    background-color: #29bde0;
+    z-index:5555;
+    width: 100%;
+    height: 50px;
+    top:0px;
+    flex-wrap:nowrap;
+}
+
+.menu{
+    position: fixed;
+    top: 11px;
+    left:11px;
+}
+
+.back_color{
+    height: auto;
+    width: auto;
+    background-color: #f0f0f0;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 85%;
+    height: 60px;
+    margin-top: 18px;
+    margin-left: 25px;
+    flex-wrap:nowrap;
+    text-align: center;
+    border: 1px solid #c9c9c9;
+}
+.main2{
+
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background: white;
+    width: 85%;
+    height: 440px;
+    margin-top: 18px;
+    margin-left: 25px;
+    flex-wrap:nowrap;
+    text-align: center;
+    border: 1px solid #c9c9c9;
+}
+.letter_main{
+    margin-left: auto;
+    color: #9a9a9a;
+}
+
+.hr{
+    height:1px;
+    border:none;
+    border-top:2px solid #fde1ae;
+    margin-top: 13px;
+}
+
+.next_gray{
+    margin-left: auto;
+}
+
+.title{
+
+    font-size: 16px;
+    color:#fbb435;
+}
+.title2{
+    margin-top: 10px;
+}
+
+.main_middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.game_main{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+.game{
+    padding: 5px 75px;
+    background-color: #69d1e9;
+    line-height: 65px;
+    color: white;
+    white-space: nowrap;  /*强制span不换行*/
+    overflow: hidden;  /*超出宽度部分隐藏*/
+    text-overflow: ellipsis;  /*超出部分以点号代替*/
+}
+
+.game_letter{
+    color: #787878;
+    line-height: 40px;
+    white-space: nowrap;  /*强制span不换行*/
+    overflow: hidden;  /*超出宽度部分隐藏*/
+    text-overflow: ellipsis;  /*超出部分以点号代替*/
+}
+.game2{
+    padding: 5px 75px;
+    background-color: #69d1e9;
+    line-height: 65px;
+    color: white;
+    white-space: nowrap;  /*强制span不换行*/
+    overflow: hidden;  /*超出宽度部分隐藏*/
+    text-overflow: ellipsis;  /*超出部分以点号代替*/
+}
+
+.game2_letter{
+    color: #787878;
+    line-height: 40px;
+    white-space: nowrap;  /*强制span不换行*/
+    overflow: hidden;  /*超出宽度部分隐藏*/
+    text-overflow: ellipsis;  /*超出部分以点号代替*/
+}
+
+.game3{
+     padding: 5px 75px;
+     background-color: #69d1e9;
+     line-height: 65px;
+     color: white;
+     white-space: nowrap;  /*强制span不换行*/
+     overflow: hidden;  /*超出宽度部分隐藏*/
+     text-overflow: ellipsis;  /*超出部分以点号代替*/
+ }
+
+.game3_letter{
+    color: #787878;
+    line-height: 40px;
+    white-space: nowrap;  /*强制span不换行*/
+    overflow: hidden;  /*超出宽度部分隐藏*/
+    text-overflow: ellipsis;  /*超出部分以点号代替*/
+}
+
+.point_1{
+    padding: 1px 9px;
+    background-color: #69d1e9;
+    color: #69d1e9;
+    white-space: nowrap;  /*强制span不换行*/
+    overflow: hidden;  /*超出宽度部分隐藏*/
+    text-overflow: ellipsis;  /*超出部分以点号代替*/
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+
+}
+
+.point_2{
+    padding: 1px 9px;
+    background-color: #f0f0f0;
+    line-height: 5px;
+    color: white;
+    white-space: nowrap;  /*强制span不换行*/
+    overflow: hidden;  /*超出宽度部分隐藏*/
+    text-overflow: ellipsis;  /*超出部分以点号代替*/
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.right_orange{
+    margin-left: auto;
+}
