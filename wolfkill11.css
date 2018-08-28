@@ -47,10 +47,10 @@ body {
     justify-content: center;
     align-items: center;
     background: white;
-    width: 85%;
+    width: 80%;
     height: 60px;
     margin-top: 18px;
-    margin-left: 25px;
+    margin-left: 10%;
     flex-wrap:nowrap;
     text-align: center;
     border: 1px solid #c9c9c9;
@@ -61,10 +61,10 @@ body {
     align-items: center;
     flex-direction:column;
     background: white;
-    width: 85%;
+    width: 80%;
     height: 440px;
     margin-top: 18px;
-    margin-left: 25px;
+    margin-left: 10%;
     flex-wrap:nowrap;
     text-align: center;
     border: 1px solid #c9c9c9;
