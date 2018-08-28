@@ -137,7 +137,6 @@ ul.none
     font-size: 16px;
     background-color: #29bde0;
     z-index:555;
-
     width: 100%;
     height: 100%;
 }
@@ -152,7 +151,7 @@ ul.none
 }
 
 .main4_letter2{
-    position: fixed;
+    position: absolute;
     font-size: 14px;
     color: lightgray;
     right: 14%;
