@@ -97,14 +97,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
+    width: 100%;
 }
 .game_main{
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    margin-left: -5%;
     width: 100%;
 }
 .game{
@@ -160,7 +159,7 @@ body {
     text-overflow: ellipsis;  /*超出部分以点号代替*/
 }
 .point{
-    width: 83%;
+    width: 80%;
     margin-left: 10%;
 }
 .point_1{
@@ -194,5 +193,5 @@ body {
 .right_orange{
     position: absolute;
     right: 10%;
-    top: 42.5%;
+    top: 44.5%;
 }
