@@ -1,0 +1,288 @@
+*{margin: 0;padding: 0}
+
+html {
+    overflow-x:hidden;
+    height: 100%;
+}
+
+body {
+    font-size: 62.5%;
+    background-color: #fafafa !important;
+}
+
+.header1{
+    position: absolute;
+    font-size: 16px;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    top:0;
+    flex-wrap:nowrap;
+}
+
+.header1_letter{
+    position: absolute;
+    color: #69c199;
+    left: 20%;
+    top: 7px;
+;
+}
+.white{
+    height: 100%;
+    background-color: white;
+}
+
+.white2{
+    height: 20%;
+    bottom: 0;
+    background-color: white;
+}
+.wechat{
+    position: absolute;
+    right: 25%;
+    top: 7px;
+}
+
+.qq{
+    position: absolute;
+    right: 23%;
+    top: 7px;
+}
+
+.weibo{
+    position: absolute;
+    right: 21%;
+    top: 7px;
+}
+.header2{
+    position: fixed;
+    font-size: 16px;
+    background-color: #29b078 !important;
+    z-index:5555;
+    width: 100%;
+    height: 100px;
+    top:40px;
+    flex-wrap:nowrap;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white !important;
+    background-color: #29b078 !important;
+}
+
+.navbar>.container{
+    margin-left: 60% ;
+}
+.navbar-nav>li>a{
+    line-height: 53px !important;
+}
+
+.container>.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 22px 31px ;
+}
+
+.main_logo{
+    width: 100%;
+}
+first>.container {
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 15%;
+}
+sec>.container{
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 15% ;
+}
+
+.main_letter{
+    font-size: 16px;
+}
+
+.main_letter2{
+    color: #29b078;
+    font-size: 16px;
+}
+.tudou{
+    margin-left: 40px;
+}
+
+.tudou_letter{
+    font-size: 14px;
+    color: #bcbcbc;
+    display: inline-block;
+    line-height: 28px;
+    font-weight: bolder;
+}
+.cop_1{
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: center;
+}
+.cop_letter{
+    position: relative;
+    width: 22%;
+    margin-left: 39%;
+    text-align: center;
+}
+span.circle:hover,span.circle:active{
+    background-color: #f9a372;
+}
+span.circle:hover+.cop_3,span.circle:active+.cop_3{
+    color: #ff650e;
+}
+
+p.cop_3:hover,p.cop_3:active{
+    color: #ff650e;
+}
+
+p.cop_3:hover+.circle3,p.cop_3:active+.circle3{
+    visibility: visible;
+}
+
+
+.circle{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    white-space:nowrap;
+    margin-top: 8px;
+    margin-right: 5px;
+    border:1px solid #fe6611;
+}
+
+.circle2{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    white-space:nowrap;
+    margin-top: 8px;
+    margin-right: 5px;
+    background-color: #f9a372;
+    border:1px solid #fe6611;
+}
+
+.circle3{
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    white-space:nowrap;
+    margin-top: 8px;
+    margin-right: 5px;
+    margin-left: 24%;
+    background-color: #f9a372;
+    border:1px solid #fe6611;
+    left: 0px;
+    visibility:hidden;
+}
+.cop_2{
+    font-size: 14px;
+}
+
+.cop_3{
+    display: inline-block;
+    color: #29b078;
+}
+
+.tudou_color{
+    display: inline-block;
+    color: #ff650e;
+    margin-right: 14px;
+}
+
+.tudou_letter2{
+    text-indent:32px;
+    color: #bcbcbc;
+}
+
+.tudou_letter3{
+    margin-left: 47px;
+    margin-bottom: 34px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.tian{
+    height: 300px;
+}
+.footer{
+    font-size: 16px;
+    background-color: #26a26f;
+    width: 100%;
+    height: 50px;
+    flex-wrap:nowrap;
+    color: white;
+}
+.footer2{
+    font-size: 14px;
+    background-color: #26a26f;
+    width: 100%;
+    height: 150px;
+    flex-wrap:nowrap;
+    color: white;
+}
+.footer3{
+    font-size: 12px;
+    background-color: #26a26f;
+    width: 100%;
+    height: 50px;
+    flex-wrap:nowrap;
+    color: white;
+}
+
+.footer_l1{
+    position: absolute;
+    left: 15%;
+    line-height: 84px;
+}
+.footer_l2{
+    position: absolute;
+    left: 37%;
+    line-height: 84px;
+}
+.footer_l3{
+    position: absolute;
+    right: 15%;
+    line-height: 70px;
+}
+.footer2_l1{
+    position: absolute;
+    left: 15%;
+    line-height: 200px;
+}
+.footer2_l2{
+    position: absolute;
+    left: 37%;
+    line-height: 120px;
+}
+.footer2_l3{
+    position: absolute;
+    left: 47%;
+    line-height: 120px;
+}
+.footer2_l4{
+    position: absolute;
+    left: 37%;
+    line-height: 200px;
+}
+.footer2_l5{
+    position: absolute;
+    left: 47%;
+    line-height: 200px;
+}
+.footer2_l6{
+    position: absolute;
+    right: 15%;
+}
+.footer3_l1{
+    position: absolute;
+    left: 37%;
+    line-height: 50px;
+}

@@ -1,0 +1,394 @@
+*{margin: 0;padding: 0}
+
+html {
+    overflow-x:hidden;
+    height: 100%;
+}
+
+body {
+    font-size: 62.5%;
+    background-color: #fafafa !important;
+}
+
+.header1{
+    position: absolute;
+    font-size: 16px;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    top:0;
+    flex-wrap:nowrap;
+}
+
+.header1_letter{
+    position: absolute;
+    color: #69c199;
+    left: 20%;
+    top: 7px;
+;
+}
+.white{
+    height: 100%;
+    background-color: white;
+}
+
+.white2{
+    height: 20%;
+    bottom: 0;
+    background-color: white;
+}
+.wechat{
+    position: absolute;
+    right: 25%;
+    top: 7px;
+}
+
+.qq{
+    position: absolute;
+    right: 23%;
+    top: 7px;
+}
+
+.weibo{
+    position: absolute;
+    right: 21%;
+    top: 7px;
+}
+.header2{
+    position: fixed;
+    font-size: 16px;
+    background-color: #29b078 !important;
+    z-index:5555;
+    width: 100%;
+    height: 100px;
+    top:40px;
+    flex-wrap:nowrap;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white !important;
+    background-color: #29b078 !important;
+}
+
+.navbar>.container{
+    margin-left: 60% ;
+}
+.navbar-nav>li>a{
+    line-height: 53px !important;
+}
+
+.container>.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 22px 31px ;
+}
+
+first>.container {
+    margin-top: 70px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.main_letter{
+    font-size: 16px;
+}
+
+.main_letter2{
+    color: #29b078;
+    font-size: 16px;
+}
+
+sec>.container {
+    margin-top: 15px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.main1_letter1{
+    font-size: 14px;
+    color: #c3c3c3;
+}
+
+.main1_letter2{
+    font-size: 14px;
+    color: black;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.main1_letter3{
+    font-size: 16px;
+    color: black;
+    font-weight: bolder;
+}
+
+span.main1_letter2:hover,span.main1_letter2:active{
+    background-color: #29b078;
+    color: white;
+}
+
+trd>.container {
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+trd>.container>.row>.col-lg-4>.panel>div>.col-lg-5{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+trd>.container>.row>.col-lg-4>.panel>div>.col-lg-6{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+trd>.container>.row>.col-lg-4>.panel>div>.col-lg-7{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+trd>.container>.row>.col-lg-4>.panel>.panel-body>.col-lg-4{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+trd>.container>.row>.col-lg-4>.panel>.panel-body>.row>.col-lg-8{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+.head_letter{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.head_letter2{
+    font-size: 14px;
+}
+
+.line{
+    padding: 0px 1px 0px 0px;
+    border: 1px solid #edf1f2;
+}
+
+.line2{
+    padding: 16px 0;
+    border: 1px solid #edf1f2;
+}
+
+.line3{
+    padding: 16px 0;
+    border: 1px solid #edf1f2;
+}
+
+.line4{
+    padding: 0px 1px 0px 0px;
+    border: 1px solid #edf1f2;
+    margin-top: 13px;
+}
+.job_2{
+    font-size: 12px;
+    color: #b8b8b8;
+}
+
+.job_3{
+    font-size: 12px;
+    margin-left: 15px;
+    color: #b8b8b8;
+}
+
+.star{
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.job_4{
+    font-size: 12px;
+    margin-left: 10px;
+    color: #f01400;
+}
+
+.job_5{
+    font-size: 12px;
+    color: black;
+}
+
+.job_6{
+    font-size: 12px;
+    color: #b8b8b8;
+    display: block;
+    margin-left: 35px;
+    margin-top: 52px;
+    margin-bottom: 51px;
+}
+
+.job4_1{
+
+}
+
+.job4_2{
+    margin-top: 15px;
+}
+
+.job4_3{
+    margin-top: 15px;
+}
+
+.job_7{
+    font-size: 12px;
+    color: black;
+    margin-left: 25px;
+}
+
+.job_8{
+    font-size: 12px;
+    color: black;
+    margin-left: 135px;
+}
+
+.job_9{
+    font-size: 14px;
+    color: black;
+    font-weight: bolder;
+}
+
+.job_10{
+    font-size: 14px;
+    color: #f01400;
+    font-weight: bolder;
+}
+
+.job_11{
+    font-size: 12px;
+    color: gray;
+}
+
+.container>.row>.col-lg-4>.panel>.panel-body>.introduce2:hover,.container>.row>.col-lg-4>.panel>.panel-body>.introduce2:active{
+    visibility: visible;
+    background-color:rgba(0,0,0,0.5);
+    color:rgba(0,0,0,1);
+}
+
+.container>.row>.col-lg-4>.panel>.panel-body>.introduce2:hover  .int_letter,.container>.row>.col-lg-4>.panel>.panel-body>.introduce2:active  .int_letter{
+    visibility: visible;
+}
+
+.container>.row>.col-lg-4>.panel>.panel-body>.introduce2:hover  .int_letter2,.container>.row>.col-lg-4>.panel>.panel-body>.introduce2:active  .int_letter2{
+    visibility: visible;
+}
+
+.introduce{
+    position: relative;
+}
+
+.introduce2{
+    position: absolute;
+    background-color: black;
+    width: 93%;
+    height: 96%;
+    background-color:rgba(0,0,0,0);
+    z-index: 666;
+    margin-left: -15px;
+    margin-top: -15px;
+    text-align: center;
+}
+
+.int_letter{
+    display: block;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 21%;
+    visibility: hidden;
+}
+
+.int_letter2{
+    display: block;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 7%;
+    margin-left: 10%;
+    width: 80%;
+    visibility: hidden;
+
+}
+
+.footer{
+    font-size: 16px;
+    background-color: #26a26f;
+    width: 100%;
+    height: 50px;
+    flex-wrap:nowrap;
+    color: white;
+}
+.footer2{
+    font-size: 14px;
+    background-color: #26a26f;
+    width: 100%;
+    height: 150px;
+    flex-wrap:nowrap;
+    color: white;
+}
+.footer3{
+    font-size: 12px;
+    background-color: #26a26f;
+    width: 100%;
+    height: 50px;
+    flex-wrap:nowrap;
+    color: white;
+}
+
+.footer_l1{
+    position: absolute;
+    left: 15%;
+    line-height: 84px;
+}
+.footer_l2{
+    position: absolute;
+    left: 37%;
+    line-height: 84px;
+}
+.footer_l3{
+    position: absolute;
+    right: 15%;
+    line-height: 70px;
+}
+.footer2_l1{
+    position: absolute;
+    left: 15%;
+    line-height: 200px;
+}
+.footer2_l2{
+    position: absolute;
+    left: 37%;
+    line-height: 120px;
+}
+.footer2_l3{
+    position: absolute;
+    left: 47%;
+    line-height: 120px;
+}
+.footer2_l4{
+    position: absolute;
+    left: 37%;
+    line-height: 200px;
+}
+.footer2_l5{
+    position: absolute;
+    left: 47%;
+    line-height: 200px;
+}
+.footer2_l6{
+    position: absolute;
+    right: 15%;
+}
+.footer3_l1{
+    position: absolute;
+    left: 37%;
+    line-height: 50px;
+}
